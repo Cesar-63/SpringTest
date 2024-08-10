@@ -5,6 +5,11 @@ public class User {
     private String name;
     private String lastname;
     private String email;
+
+    
+    
+    public User() {
+    }
     
     public User(String name, String lastname, String email) {
         this(name, lastname);
