@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class UserController {
 
+    //para thymeleaf reacordar que se usa '$' para llamar variables 
+    //y '@' para llamar rutas
     @GetMapping("/details")
     public String details(Model model) 
     {
